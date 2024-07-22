@@ -18,4 +18,24 @@ Night Mode: Enjoy a comfortable viewing experience in low light conditions with 
 
 Stay informed and make smarter financial decisions with our all-in-one currency converter. Download now and experience the convenience!
 
+## Setup
+
+To run this project, you will need to add your own API key. Follow these steps:
+
+1. Create a `gradle.properties` file in the root directory of your project.
+2. Add your API key to the `gradle.properties` file in the following format:
+
+    ```properties
+    API_KEY=your_api_key_here
+    ```
+
+3. Make sure that `gradle.properties` is added to your `.gitignore` file to avoid exposing your API key in version control:
+
+    ```gitignore
+    /gradle.properties
+    ```
+
+Now you can build and run the project with your own API key.
+
+
 # ****[Download the app now](https://play.google.com/store/apps/details?id=com.curverto.app)****
